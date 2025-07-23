@@ -26,6 +26,6 @@ jobs:
           terraform fmt
           terraform init
           terraform apply --auto-approve=true
-      - name: destroy terraform # Step to deploy using a custom script
+      - name: destroy terraform # Step to deploy using a custom
         run: |
           terraform destroy --auto-approve=true
