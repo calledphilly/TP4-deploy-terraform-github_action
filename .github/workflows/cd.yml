@@ -1,5 +1,6 @@
 name: CD Pipeline - Deploy with terraform
 on: push
+
 permissions:
   id-token: write # Permission to write an ID token
   contents: read # Permission to read contents
