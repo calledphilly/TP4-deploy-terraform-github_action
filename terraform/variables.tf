@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default = "mybucket"
+  default = "mysuperbucketdepoulet"
 }
 
 variable "tags" {
@@ -13,4 +13,9 @@ variable "tags" {
     Name = "mytags"
     Environment = "Dev"
   }
+}
+
+variable "aws_region" {
+  type = string
+  default = "eu-west-1"
 }
